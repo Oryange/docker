@@ -7,7 +7,11 @@ Container é o docker rodando alguma imagem (utiliza da imagem para poder ser ex
 Os containers do docker não tem conexão com nada de fora deles - por isso precisamos expor portas. 
 
 #### Imagem
-É o projeto que será executado pelo container, todas as instruções estarão declaradas nela. Programamos uma imagem e a executamos por meio de um container.
+É o projeto que será executado pelo container, todas as instruções estarão declaradas nela. 
+Imagens são originadas de arquivos que programamos para que o docker crie uma estrutura que execute determinadas ações em containers (programamos uma imagem e a executamos por meio de um container).
+* imagens contém informações como: imagens base, diretório base, comandos a serem executados, porta de aplicação e etc;
+* ao rodar um container baseado na imagem, as isntruções serão executadas em camadas.
+
 
 ------------------------------------
 
@@ -32,3 +36,9 @@ ex: docker run -d p 80:80  --name <nomeQueQuero>
 
  ------------------------------------
 ## Containers e imagens
+### Criando uma imagem
+Para criar uma imagem, precisa-se de um arquivo `Dockerfile` em uma pasta que ficará o projeto. Este arquivo precisara de algumas instruções para ser executado:
+ * FROM: imagem base
+ * WORKDIR: diretória da aplicação 
+ * EXPOSE: porta da aplicação 
+ * COPY: quais arquivos precisam ser copiados
