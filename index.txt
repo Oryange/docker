@@ -1,13 +1,16 @@
-Conceitos docker
-docker desktop é uma interface para trabalhar no terminal
-container utiliza da imagem para poder ser executado.
-imagem é o projeto que será executado pelo container, todas as instruções estarão declaradas nela
-container é o docker rodando alguma imagem - consequentemente executando algum código proposto por ela;
-Os containers do docker não tem conexão com nada de fora deles - por isso precisamos expor portas.
-programamos uma imagem e a executamos por meio de um container.
+### Conceitos docker
+#### Docker Desktop:
+É uma interface para trabalhar no terminal.
 
-Trabalhando com Containers
-sudo docker-compose up -d
+#### Container
+Container é o docker rodando alguma imagem (utiliza da imagem para poder ser executado) - consequentemente executando algum código proposto por ela.
+Os containers do docker não tem conexão com nada de fora deles - por isso precisamos expor portas. 
+
+#### Imagem
+É o projeto que será executado pelo container, todas as instruções estarão declaradas nela. Programamos uma imagem e a executamos por meio de um container.
+
+#### Trabalhando com Containers
+> sudo docker-compose up -d
 docker run - rodar container
 docker run docker/whalesay cowsay
 docker run it <image> - executar container com interação
@@ -23,4 +26,4 @@ docker logs <id> - verificar logs
 docker -rm <id> - remover container da máquina
 docker rm <id>  -f - forçar a remoção do container rodando
 
-Containers e imagens
+#### Containers e imagens
