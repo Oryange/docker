@@ -1,13 +1,13 @@
 # Curso de Docker do básico ao avançado
--[x] Criar e subir containers de Docker
--[x] Criar imagens de Docker
--[x] Docker Compose
--[x] Desenvolvimento de Volumes no Docker
--[x] Criação de networks no Docker
--[x] Bind Mount no Docker
--[x] Docker Swarm
--[x] Kubernetes
--[x] Orquestração de containers
--[x] Kubernetes em modo declarativo e imperativo
--[x] Utilizar o Docker Swarm na AWS
--[x] YAML do básico ao avançado
+- [x]  Criar e subir containers de Docker
+- [x] Criar imagens de Docker
+- [x]  Docker Compose
+- [x]  Desenvolvimento de Volumes no Docker
+- [x]  Criação de networks no Docker
+- [x]  Bind Mount no Docker
+- [x]  Docker Swarm
+- [x]  Kubernetes
+- [x]  Orquestração de containers
+- [x]  Kubernetes em modo declarativo e imperativo
+- [x]  Utilizar o Docker Swarm na AWS
+- [x]  YAML do básico ao avançado
