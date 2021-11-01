@@ -14,12 +14,12 @@ Os containers do docker não tem conexão com nada de fora deles - por isso prec
 ## Trabalhando com Containers
 * sudo docker-compose up -d
 * docker run - `rodar container`
-#### docker run docker/whalesay cowsay
-#### docker run it <image> - executar container com interação
-docker ps - ver containers rodando
-docker ps -a - ver containers executados
-docker run -d <image> - executar container em background
-docker stop <NAME> - parar o container
+ex: docker run docker/whalesay cowsay
+* docker run it <image> - `executar container com interação`
+docker ps - `ver containers rodando`
+docker ps -a - `ver containers executados`
+docker run -d <image> - `executar container em background`
+docker stop <NAME> - `parar o container`
 docker run -p 3000:80 <image> -expor porta 3000 do pc na porta 80 é a porta que quero receber do container
 docker stop <id ou nome> -parando container
 docker start <id> - re/iniciar container
