@@ -31,7 +31,7 @@ ex: expor porta 3000 do pc na porta 80 é a porta que quero receber do container
 * flag --name - `definir nome do container`
 ex: docker run -d p 80:80  --name <nomeQueQuero>
 * docker logs <id> - `verificar logs`
-* docker -rm <id> - `remover container da máquina`
+* docker rm <id> - `remover container da máquina`
 * docker rm <id>  -f - `forçar a remoção do container rodando`
 
  ------------------------------------
@@ -43,5 +43,6 @@ Para criar uma imagem, precisa-se de um arquivo `Dockerfile` em uma pasta que fi
  * EXPOSE: porta da aplicação 
  * COPY: quais arquivos precisam ser copiados
 **EXECUTANDO UMA IMAGEM:** Para executar a imagem primeiramente é necessário fazer o build. 
-* docker build <diretorio da imagem> `faz o build`
-* docker run <imagem> `executa imagem`
+* docker build <diretorio da imagem> `faz o build - se estiver na mesma pasta, basta rodar 'docker build .'`
+* docker run <id imagem> `executa imagem`
+* docker image ls `para ver todas as imagens que rodaram`
