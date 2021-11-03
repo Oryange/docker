@@ -42,3 +42,6 @@ Para criar uma imagem, precisa-se de um arquivo `Dockerfile` em uma pasta que fi
  * WORKDIR: diretória da aplicação 
  * EXPOSE: porta da aplicação 
  * COPY: quais arquivos precisam ser copiados
+**EXECUTANDO UMA IMAGEM:** Para executar a imagem primeiramente é necessário fazer o build. 
+* docker build <diretorio da imagem> `faz o build`
+* docker run <imagem> `executa imagem`

@@ -1,6 +1,6 @@
 # Curso de Docker do básico ao avançado
 - [x]  Criar e subir containers de Docker
-- [x] Criar imagens de Docker
+- [x]  Criar imagens de Docker
 - [x]  Docker Compose
 - [x]  Desenvolvimento de Volumes no Docker
 - [x]  Criação de networks no Docker
