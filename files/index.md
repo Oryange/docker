@@ -16,7 +16,7 @@ Imagens são originadas de arquivos que programamos para que o docker crie uma e
 ------------------------------------
 
 ## Trabalhando com Containers
-* docker-compose up -d = `senão admin, utilizar 'sudo'` 
+* docker-compose up -d - `senão admin, utilizar 'sudo'` 
 * docker run - `rodar container`
 ex: docker run docker/whalesay cowsay
 * docker run it <image> - `executar container com interação`
